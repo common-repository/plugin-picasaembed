@@ -1,0 +1,32 @@
+#pluginpicasaembed-dialog-error,
+#pluginpicasaembed-dialog-notification, 
+#pluginpicasaembed-dialog-login,
+#pluginpicasaembed-dialog-configure,  
+#pluginpicasaembed-thumbnail {
+	display:none;
+}
+#pluginpicasaembed-error-message,
+#pluginpicasaembed-notification-message {
+margin-right: 0.4em;
+}
+.required {
+	color: #B22222;
+	font-weight: bold;
+}
+#pluginpicasaembed-list tr {
+	cursor: pointer;	
+}
+#pluginpicasaembed-thumbnail {
+	position: absolute;
+	padding: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border: 1px solid #DFDFDF;
+	background: #fff;
+}
+#pluginpicasaembed-thumbnail p {
+	margin: 0;
+	text-align: center;
+}
